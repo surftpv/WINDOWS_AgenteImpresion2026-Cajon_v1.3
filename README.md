@@ -11,7 +11,7 @@ CMD:
 
 cd C:\SurfTPV\AgenteImpresionTPV
 
-C:\SurfTPV\.venv\Scripts\activate.bat
+C:\SurfTPV\ .venv\Scripts\activate.bat
 
 pip uninstall python-escpos
 
