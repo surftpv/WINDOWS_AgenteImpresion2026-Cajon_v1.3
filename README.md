@@ -7,17 +7,20 @@ AGENTE DE IMPRESIÓN
 3- Se instala el servicio de AgenteDeImpresión automaticamente, comprobar funcionamiento tras instalación
 4- Si no se ejecuta servicio SurfTpv_printagent, reinstalar paquete "python-escpos" en entorno.
 
-CMD:
+&gt; **Nota importante:** Si encuentras el error `ModuleNotFoundError: No module named 'pkg_resources'`, ejecuta:
 
+Abre **CMD** como Administrador:
+
+```cmd
 cd C:\SurfTPV\AgenteImpresionTPV
-
 C:\SurfTPV\.venv\Scripts\activate.bat
+pip install --upgrade setuptools wheel
 
-pip uninstall python-escpos
+pip uninstall python-escpos -y
 
 pip install python-escpos
 
-
+5- Edita el fichero:  print_agent_beep.py (añade subdominio, api key, Ip impresoras)
 
 -------------------------------------------------------------------------------------------------
 CAJÓN Portamonedas en WINDOWS
