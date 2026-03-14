@@ -10,9 +10,13 @@ AGENTE DE IMPRESIÓN
 CMD:
 
 cd C:\SurfTPV\AgenteImpresionTPV
+
 C:\SurfTPV\.venv\Scripts\activate.bat
+
 pip uninstall python-escpos
+
 pip install python-escpos
+
 
 CAJÓN Portamonedas en WINDOWS
 
