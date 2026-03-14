@@ -18,6 +18,8 @@ pip uninstall python-escpos
 pip install python-escpos
 
 
+
+-------------------------------------------------------------------------------------------------
 CAJÓN Portamonedas en WINDOWS
 
 1- Instalar AutoHotKey, Se encuentra en C:\SurfTPV\CajonPortamonedas\InstaladorAutoHotKey\AutoHotkey_2.0.19_setup.exe
