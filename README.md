@@ -27,7 +27,7 @@ pip install python-escpos
 5- Edita el fichero:  print_agent_beep.py (añade subdominio, api key, Ip impresoras)
 
 -------------------------------------------------------------------------------------------------
-CAJÓN Portamonedas en WINDOWS
+CAJÓN Portamonedas en WINDOWS:
 
 1- Instalar AutoHotKey, Se encuentra en C:\SurfTPV\CajonPortamonedas\InstaladorAutoHotKey\AutoHotkey_2.0.19_setup.exe
 
