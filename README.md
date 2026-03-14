@@ -5,6 +5,14 @@ AGENTE DE IMPRESIÓN
 1- Ejecutar el script como ADMINISTRADOR : installServAgenteImpSurfTpv_V1.2.bat
 2- Se crea una estructura con todos los archivos en C:\SurfTPV
 3- Se instala el servicio de AgenteDeImpresión automaticamente, comprobar funcionamiento tras instalación
+4- Si no se ejecuta servicio SurfTpv_printagent, reinstalar paquete "python-escpos" en entorno.
+
+CMD:
+
+cd C:\SurfTPV\AgenteImpresionTPV
+C:\SurfTPV\.venv\Scripts\activate.bat
+pip uninstall python-escpos
+pip install python-escpos
 
 CAJÓN Portamonedas en WINDOWS
 
